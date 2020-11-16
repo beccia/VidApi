@@ -8,11 +8,9 @@ namespace VidyaApi.services
 {
 
     
-    public class ArticleService
+    public interface IArticleService
     {
-       public string[] GetArticles() {
-           return new string[]{" " , " " };
-       }
+        string[] GetArticles();
     }
 
 }
